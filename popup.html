@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBelt</title>
+    <link rel="stylesheet" href="https:://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 1px;
+            max-height: 126px;
+            min-height: 126px;
+            padding: 0.5px;
+            width: 200px;
+        }
+
+        h1{
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: skyblue;
+        }
+
+        a:link, a:visited{
+            color:black;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img{
+            margin-left: 2px;
+            width: 34px;
+        }
+
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid grey;
+        }
+
+        .modal-content{
+            padding: 0 26px;
+        }
+
+        .modal-icons{
+            border-top: 0.5px solid grey;
+            height: 45px;
+            width: 100%;
+        }
+
+        .logo{
+            padding: 20px;
+        }
+
+        .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 4px;
+        }
+
+        .version{
+            color:darkgray;
+            font-size: 16px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 100px;
+        }
+
+        .flex:hover{
+            opacity: 0.5
+        }
+
+        .flex .fa{
+            font-size: 34px;
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="one"> SocialBelt
+            <span class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Easily access social media</p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa fa-ticket"></i></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.twitter.com/" target="_blank">
+                    <i class="fa fa-ticket"></i></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-ticket"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
