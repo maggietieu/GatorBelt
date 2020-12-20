@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "GatorBelt",
-    "description": "Quick launch UFL sites",
+    "name": "GatorNav",
+    "description": "Quick launch UFL sites & social media. Developed by a Gator, for Gators!",
     "version": "1.0.0",
     "icons": {"128": "icon_128.png"},
     "browser_action":{
